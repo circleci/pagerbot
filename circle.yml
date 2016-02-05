@@ -1,0 +1,3 @@
+deployment:
+  commands:
+    - sudo service docker start
