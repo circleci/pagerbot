@@ -3,4 +3,4 @@ deployment:
     branch: pagerbot-docker-test
     commands:
       - sudo service docker start
-    #  - ./docker.sh
+      - ./docker.sh
