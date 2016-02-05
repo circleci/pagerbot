@@ -10,8 +10,8 @@ build_docker() {
    DOCKER_BUILD_PATH=/tmp/pb-docker
    mkdir -p ${DOCKER_BUILD_PATH}
 
-   cp Dockerfile ${DOCKER_BUILD_PATH}/
-   cp Gemfile ${DOCKER_BUILD_PATH}/
+   #cp Dockerfile ${DOCKER_BUILD_PATH}/
+   #cp Gemfile ${DOCKER_BUILD_PATH}/
 
    pushd ${DOCKER_BUILD_PATH}
    docker build -t circleci/pagerbot:${DOCKER_TAG} .
