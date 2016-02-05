@@ -1,3 +1,5 @@
 deployment:
-  commands:
-    - sudo service docker start
+  publish_docker_container:
+    branch: pagerbot-docker-test
+    commands:
+      - sudo service docker start
