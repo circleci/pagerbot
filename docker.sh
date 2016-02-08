@@ -22,10 +22,10 @@ build_docker() {
 rake test
 
 # run admin interface
-bundle exec ruby lib/pagerbot.rb admin
+# bundle exec ruby lib/pagerbot.rb admin
 
 # run irc bot locally (after setting up bot in admin)
-bundle exec ruby lib/pagerbot.rb admin irc
+# bundle exec ruby lib/pagerbot.rb admin irc
 
 
 # build_docker
