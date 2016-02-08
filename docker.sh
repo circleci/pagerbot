@@ -29,3 +29,6 @@ rake test
 
 
 # build_docker
+
+# Testing mongo
+listen mongo 127.0.0.1:27017
