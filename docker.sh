@@ -18,4 +18,4 @@ build_docker() {
    popd
 }
 
-build_docker
+# build_docker
