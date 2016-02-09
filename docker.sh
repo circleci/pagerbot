@@ -31,4 +31,4 @@ rake test
 # build_docker
 
 # Testing mongo
-mongodb:27017
+# mongodb:27017
